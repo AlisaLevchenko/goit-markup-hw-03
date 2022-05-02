@@ -46,7 +46,9 @@ p {
 img {
   display: block;
 }
-
+.head-border {
+  border-bottom: 1px solid #ececec;
+}
 .container {
   width: 1200px;
   padding: 0 15px;
@@ -71,6 +73,7 @@ img {
   color: var(--text-color-black);
   line-height: 1.19;
   padding: 24px 0 25px;
+  margin-right: 68px;
 }
 
 .logo span {
@@ -319,6 +322,10 @@ img {
   padding: 0;
 }
 
+.footer-list li:not(:last-child) {
+  margin-bottom: 9px;
+}
+
 .footer-address {
   color: var(--text-color-white);
   font-style: normal;
@@ -326,7 +333,6 @@ img {
   letter-spacing: 0.03em;
   line-height: 1.71;
   display: inline-block;
-  margin-bottom: 9px;
 }
 
 .footer-address:hover,
@@ -345,7 +351,6 @@ img {
 }
 .mail {
   display: inline-block;
-  margin-bottom: 9px;
 }
 
 .tel {
@@ -365,13 +370,9 @@ img {
   padding-bottom: 94px;
 }
 
-/* .portfolio {
-  display: none;
-} */
-
 .buttons {
   display: flex;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   justify-content: center;
 }
 
